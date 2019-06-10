@@ -4,7 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using TesteGT4W.Models;
+using TesteGT4W.Models.ViewModels;
+
 
 namespace TesteGT4W.Controllers
 {

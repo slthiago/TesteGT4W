@@ -1,6 +1,6 @@
 using System;
 
-namespace TesteGT4W.Models
+namespace TesteGT4W.Models.ViewModels
 {
     public class ErrorViewModel
     {
