@@ -11,19 +11,19 @@
     <thead class="thead-dark">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                NOME
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cpf)
+                CPF
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DateNascimento)
+                DATA DE NASCIMENTO
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Peso)
+                PESO
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Uf)
+                UF
             </th>
             <th></th>
         </tr>
@@ -48,10 +48,10 @@
                     @Html.DisplayFor(modelItem => item.Uf)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
+                    <button type="button" class="btn btn-info"><a asp-action="Edit" asp-route-id="@item.Id" style="text-decoration: none; color: #fff;">Editar</a></button>
+                    <button type="button" class="btn btn-primary"><a asp-action="Details" asp-route-id="@item.Id" style="text-decoration: none; color: #fff;">Detalhes</a></button>
+                    <button type="button" class="btn btn-danger"><a asp-action="Delete" asp-route-id="@item.Id" style="text-decoration: none; color: #fff;">Excluir</a></button>
+</td>
             </tr>
         }
     </tbody>

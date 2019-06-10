@@ -44,10 +44,12 @@ template {
 }
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 a:active,
 a:hover {
   outline: 0;
+
 }
 abbr[title] {
   border-bottom: none;
@@ -6832,3 +6834,7 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.a {
+    text-decoration: none;
+}
